@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<!--
+This page makes a Mad Lib story. For an example of a similar page, go here:
+
+http://www.redkid.net/madlibs/
+-->
+
+<html>
+<head>
+<title>My MadLib</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+<h1>My MadLib</h1>
+
+<div class="data">
+
+    <p class="instructions">Enter a value into each field. Then press 'Make Story' to read the story you made.</p>
+
+    <!--
+    Request that the user type in at least 15 words in the form below. Ask for the
+    words by part of speach (noun, verb, adjective, adverb, proper noun, etc.) You
+    can also ask for things like places. Use field ids like noun1, noun2, verb1, etc.
+
+    Then make a button with the text "Make Story". The Make Story button should call
+    your makeStory() function which gets all of the form data and then builds and
+    displays your finished story.
+    -->
+
+    <form>
+        adjective1 <input type="text" id='adjective1'> <br>
+        adjective2 <input type="text" id='adjective2'> <br>
+        adjective3 <input type="text" id='adjective3'> <br>
+        noun1 <input type="text" id='noun1'> <br>
+        noun2 <input type="text" id='noun2'> <br>
+        noun3 <input type="text" id='noun3'> <br>
+        noun4 <input type="text" id='noun4'> <br>
+        verb1 <input type="text" id='verb1'> <br>
+        part_of_the_body1 <input type="text" id='part_of_the_body1'> <br>
+        part_of_the_body2 <input type="text" id='part_of_the_body2'> <br>
+        past_tense_verb <input type="text" id='past_tense_verb'> <br>
+        plural_noun1 <input type="text" id='plural_noun1'> <br>
+        plural_noun2 <input type="text" id='plural_noun2'> <br>
+        ing_verb <input type="text" id='ing_verb'> <br>
+
+      <input type="button" onclick="makeStory()" value="Reveal Your Story!">
+
+    </form>
+
+</div>
+
+<div class="story">
+    <h2 id="title"> The Prom</h2>
+
+    <p id="one">Complete the form to the left to Make story!</p>
+    <p id="two"></p>
+    <p id="three"></p>
+
+</div>
+
+
+<!-- don't forget to link to the story_maker.js file here. -->
+<script src="story_maker.js"> </script>
+
+</body>
+</html>
