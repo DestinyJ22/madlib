@@ -20,9 +20,9 @@ function makeStory() {
 
 
     // Build story. you can add as many paragraphs as you like. (3 points)
-    var paragraph1 = "If there is a tune you can't seem to get out of your " + part_of_the_body1 + " or a song running through your" + part_of_the_body2 + ", then grab your friends to this year's " + adjective1 + "prom. ";
-    var paragraph2 = "As ususal, our " + noun1 + "will be held in our school's " + noun2 + "." + "A dress code will be observed. " + "No one will be allowed in wearing " + past_tense_verb + "or torn" + plural_noun1 + ". " + " Boys must wear a dress shirt and " + noun3 + "and girls must wear a  " + noun4 + ".";
-    var paragraph3 = "As always, hot " + plural_noun2 + " will be served , and there will be " + adjective2 + "awards and prizes for the top- " + ing_verb + "." + " Everyone will " + verb1 + "the night away and comment on how " + adjective3 + "the prom was ";
+    var paragraph1 = "If there is a tune you can't seem to get out of your " + part_of_the_body1 + " or a song running through your " + part_of_the_body2 + ", then grab your friends to this year's " + adjective1 + " prom. ";
+    var paragraph2 = "As ususal, our " + noun1 + " will be held in our school's " + noun2 + ". " + "A dress code will be observed. " + "No one will be allowed in wearing " + past_tense_verb + " or torn " + plural_noun1 + ". " + " Boys must wear a dress shirt and " + noun3 + " and girls must wear a  " + noun4 + ".";
+    var paragraph3 = "As always, hot " + plural_noun2 + " will be served , and there will be " + adjective2 + " awards and prizes for the top- " + ing_verb + "." + " Everyone will " + verb1 + " the night away and comment on how " + adjective3 + " the prom was ";
 
 
     // Display story by putting title & paragraphs into appropriate divs. (3 points)
